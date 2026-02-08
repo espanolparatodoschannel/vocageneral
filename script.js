@@ -1,23 +1,18 @@
-let allFlashcards = []; // Copia original para filtrar
-let flashcards = [];    // Lista actual (puede estar filtrada)
+let flashcards = [];
 let current = 0;
 let selectedVoiceName = localStorage.getItem('preferredVoice');
-const searchInput = document.getElementById('searchInput');
-const categorySelect = document.getElementById('categorySelect');
 
 // Cargar datos
 async function init() {
     try {
         const response = await fetch('vocabulario.json');
-        allFlashcards = await response.json();
+        flashcards = await response.json();
 
-        // Ordenar alfabéticamente una sola vez al inicio
-        allFlashcards.sort((a, b) =>
+        // Ordenar alfabéticamente por término francés
+        flashcards.sort((a, b) =>
             a["Término en francés"].localeCompare(b["Término en francés"], 'fr', { sensitivity: 'base' })
         );
 
-        flashcards = [...allFlashcards];
-        populateCategories();
         showCard(0);
     } catch (error) {
         console.error('Error cargando JSON:', error);
@@ -26,36 +21,6 @@ async function init() {
             cardElement.innerHTML = '<p style="color:red">Error al cargar datos. Asegúrate de que vocabulario.json exista y esté en la misma carpeta.</p>';
         }
     }
-}
-
-function populateCategories() {
-    const categorySelect = document.getElementById('categorySelect');
-    if (!categorySelect) return;
-
-    const categories = [...new Set(allFlashcards.map(card => card.categoría).filter(Boolean))];
-    categories.sort();
-
-    categories.forEach(cat => {
-        const opt = document.createElement('option');
-        opt.value = cat;
-        opt.textContent = cat;
-        categorySelect.appendChild(opt);
-    });
-}
-
-function applyFilters() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    const selectedCategory = document.getElementById('categorySelect').value;
-
-    flashcards = allFlashcards.filter(card => {
-        const matchesSearch = card["Término en francés"].toLowerCase().includes(searchTerm) ||
-            card.definiciones.some(d => d["Término en español"].toLowerCase().includes(searchTerm));
-        const matchesCategory = selectedCategory === 'all' || card.categoría === selectedCategory;
-        return matchesSearch && matchesCategory;
-    });
-
-    current = 0;
-    showCard(0);
 }
 
 function loadVoices() {
@@ -102,7 +67,7 @@ function loadVoices() {
         voiceSelect.appendChild(option);
     });
 
-    // Si no hay voz guardada, elegir la primera (la mejor según nuestro sort)
+    // Set default if none selected
     if (!selectedVoiceName && frVoices.length > 0) {
         selectedVoiceName = frVoices[0].name;
     }
@@ -141,15 +106,6 @@ function showCard(idx) {
     container.classList.add('fade-out');
 
     setTimeout(() => {
-        if (!flashcards.length) {
-            container.innerHTML = '<div class="no-results">❌ No se encontraron términos con esos filtros.</div>';
-            document.getElementById('counter').textContent = `0 / 0`;
-            container.style.transform = '';
-            container.classList.remove('fade-out');
-            return;
-        }
-
-        const card = flashcards[idx];
         const terminoFr = card["Término en francés"];
         const palabraEscaped = terminoFr.replace(/'/g, "\\'");
 
@@ -157,10 +113,6 @@ function showCard(idx) {
             <button class="sound-btn-main" onclick="speak('${palabraEscaped}')" title="Escuchar término">🔊</button>
             <div class="word-fr">${terminoFr}</div>
         `;
-
-        if (card.categoría) {
-            html += `<div style="font-size: 0.75rem; opacity: 0.5; margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">${card.categoría}</div>`;
-        }
 
         if (card.definiciones) {
             card.definiciones.forEach((def, i) => {
@@ -262,17 +214,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if ('speechSynthesis' in window) {
         window.speechSynthesis.onvoiceschanged = loadVoices;
         loadVoices();
-    }
-
-    // Eventos de Filtro
-    const searchInput = document.getElementById('searchInput');
-    const categorySelect = document.getElementById('categorySelect');
-
-    if (searchInput) {
-        searchInput.addEventListener('input', applyFilters);
-    }
-    if (categorySelect) {
-        categorySelect.addEventListener('change', applyFilters);
     }
 
     init();
