@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards Francés Pro</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Estilos Externos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="settings-container">
+      <button class="theme-toggle" id="voiceSettingsBtn" title="Configuración de voz">⚙️</button>
+      <div class="voice-selector-popup" id="voiceSelectorPopup">
+        <label for="voiceSelect">Voz de Francés:</label>
+        <select id="voiceSelect"></select>
+      </div>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="Cambiar tema">🌓</button>
+  </div>
+
+  <div class="container">
+    <div class="flashcard" id="flashcard">
+      <p>Cargando vocabulario...</p>
+    </div>
+
+    <div class="controls">
+      <button class="btn-action" onclick="prevCard()" title="Anterior">
+        ⬅️ <span>Anterior</span>
+      </button>
+      <button class="btn-action" onclick="nextCard()" title="Siguiente">
+        <span>Siguiente</span> ➡️
+      </button>
+      <button class="btn-action" onclick="randomCard()" title="Aleatorio">
+        🎲 <span>Aleatorio</span>
+      </button>
+    </div>
+
+    <div class="counter" id="counter">0 / 0</div>
+  </div>
+
+  <!-- Lógica Externa -->
+  <script src="script.js"></script>
+</body>
+
+</html>
