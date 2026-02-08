@@ -58,6 +58,8 @@ function loadVoices() {
     frVoices.forEach(voice => {
         const option = document.createElement('option');
         option.value = voice.name;
+        // Almacenamos el idioma en un atributo de datos para usarlo al hablar
+        option.setAttribute('data-lang', voice.lang);
         option.textContent = `${voice.name} (${voice.lang})`;
         if (voice.name === selectedVoiceName) {
             option.selected = true;
@@ -80,7 +82,12 @@ function speak(text) {
         const voice = voices.find(v => v.name === selectedVoiceName) ||
             voices.find(v => v.lang.startsWith('fr'));
 
-        if (voice) utter.voice = voice;
+        if (voice) {
+            utter.voice = voice;
+            utter.lang = voice.lang; // Forzar fonética del idioma de la voz
+        } else {
+            utter.lang = 'fr-FR';
+        }
 
         utter.rate = 0.9;
         window.speechSynthesis.speak(utter);
