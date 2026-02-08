@@ -1,6 +1,7 @@
 [
     {
         "Término en francés": "À ce sujet",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Sobre este tema",
@@ -16,6 +17,7 @@
     },
     {
         "Término en francés": "Amende",
+        "categoría": "Trabajo y Legal",
         "definiciones": [
             {
                 "Término en español": "Multa",
@@ -31,6 +33,7 @@
     },
     {
         "Término en francés": "À tout momento",
+        "categoría": "Tiempo y Frecuencia",
         "definiciones": [
             {
                 "Término en español": "En cualquier momento",
@@ -46,21 +49,23 @@
     },
     {
         "Término en francés": "Au sein de",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Dentro de",
-                "Ejemplo en francés": "Il travaille au sein d'une grande entreprise internationale.",
+                "Ejemplo en francés": "Il travaille au sein d'une grande empresa internationale.",
                 "Ejemplo en español": "Él trabaja dentro de una gran empresa internacional."
             },
             {
                 "Término en español": "En el seno de (más formal)",
-                "Ejemplo en francés": "Cette decisión a créé des tensions au sein du conseil d'administration.",
+                "Ejemplo en francés": "Cette décision a créé des tensions au sein du conseil d'administration.",
                 "Ejemplo en español": "Esta decisión creó tensiones en el seno del consejo de administración."
             }
         ]
     },
     {
         "Término en francés": "Au sujet de",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Sobre (algo)",
@@ -76,6 +81,7 @@
     },
     {
         "Término en francés": "Avant cela",
+        "categoría": "Tiempo y Frecuencia",
         "definiciones": [
             {
                 "Término en español": "Antes de eso",
@@ -91,6 +97,7 @@
     },
     {
         "Término en francés": "Au-delà",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Más allá",
@@ -106,6 +113,7 @@
     },
     {
         "Término en francés": "Ceci étant dit",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Dicho esto",
@@ -121,6 +129,7 @@
     },
     {
         "Término en francés": "Comme d'habitude",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Como de costumbre",
@@ -131,6 +140,7 @@
     },
     {
         "Término en francés": "Couramment",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Fluidamente / Con fluidez",
@@ -146,6 +156,7 @@
     },
     {
         "Término en francés": "Échoué à",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Fracasado en",
@@ -161,6 +172,7 @@
     },
     {
         "Término en francés": "Embouteillages",
+        "categoría": "Transporte y Ciudad",
         "definiciones": [
             {
                 "Término en español": "Atascos",
@@ -175,7 +187,8 @@
         ]
     },
     {
-        "Término en francés": "En mettant l'accent sur",
+        "Término en francés": "En mettant l'accent sobre",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Poniendo el énfasis en",
@@ -191,6 +204,7 @@
     },
     {
         "Término en francés": "Il faut qu'il y ait",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Es necesario que haya",
@@ -199,13 +213,14 @@
             },
             {
                 "Término en español": "Debe haber",
-                "Ejemplo en francés": "Pour réussir ce proyect, il faut qu'il y ait de la motivation.",
+                "Ejemplo en francés": "Pour réussir ce projet, il faut qu'il y ait de la motivation.",
                 "Ejemplo en español": "Para que este proyecto tenga éxito, debe haber motivación."
             }
         ]
     },
     {
         "Término en francés": "Inclure",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Incluir",
@@ -221,6 +236,7 @@
     },
     {
         "Término en francés": "Je me suis rendu compte (que/de)",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Me di cuenta (de que)",
@@ -231,6 +247,7 @@
     },
     {
         "Término en francés": "Mettre à profit",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Aprovechar",
@@ -246,6 +263,7 @@
     },
     {
         "Término en francés": "Milieu",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Medio",
@@ -261,6 +279,7 @@
     },
     {
         "Término en francés": "Moi, ce qui m'a étonnée",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "A mí, lo que me sorprendió",
@@ -271,6 +290,7 @@
     },
     {
         "Término en francés": "N'importe comment",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "De cualquier manera",
@@ -281,6 +301,7 @@
     },
     {
         "Término en francés": "N'importe oú",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "En cualquier lugar",
@@ -291,6 +312,7 @@
     },
     {
         "Término en francés": "N'importe quand",
+        "categoría": "Tiempo y Frecuencia",
         "definiciones": [
             {
                 "Término en español": "En cualquier momento",
@@ -301,6 +323,7 @@
     },
     {
         "Término en francés": "N'importe quel",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Cualquier (masculino singular)",
@@ -311,6 +334,7 @@
     },
     {
         "Término en francés": "N'importe quelle",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Cualquier (femenino singular)",
@@ -321,6 +345,7 @@
     },
     {
         "Término en francés": "N'importe quelles",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Cualesquiera (femenino plural)",
@@ -331,6 +356,7 @@
     },
     {
         "Término en francés": "N'importe quels",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Cualesquiera (masculino plural)",
@@ -341,6 +367,7 @@
     },
     {
         "Término en francés": "N'importe qui",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Cualquiera (persona)",
@@ -351,6 +378,7 @@
     },
     {
         "Término en francés": "N'importe quoi",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Cualquier cosa",
@@ -366,6 +394,7 @@
     },
     {
         "Término en francés": "Par rapport à",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Con respecto a",
@@ -373,7 +402,7 @@
                 "Ejemplo en español": "Él tiene una actitud diferente con respecto al año pasado."
             },
             {
-                "Término en español": "En comparaison con",
+                "Término en español": "En comparación con",
                 "Ejemplo en francés": "Le coût est faible par rapport aux bénéfices attendus.",
                 "Ejemplo en español": "El costo es bajo en comparación con los beneficios esperados."
             }
@@ -381,6 +410,7 @@
     },
     {
         "Término en francés": "Porter sur",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Tratar sobre",
@@ -396,6 +426,7 @@
     },
     {
         "Término en francés": "Pour rejoindre",
+        "categoría": "Transporte y Ciudad",
         "definiciones": [
             {
                 "Término en español": "Para unirse a",
@@ -411,6 +442,7 @@
     },
     {
         "Término en francés": "Quart de travail",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Turno de trabajo",
@@ -421,6 +453,7 @@
     },
     {
         "Término en francés": "Recueillir",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Recoger / Recolectar (datos, frutos, testimonios)",
@@ -436,6 +469,7 @@
     },
     {
         "Término en francés": "Repose sur",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Se basa en",
@@ -451,6 +485,7 @@
     },
     {
         "Término en francés": "Retenu",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Seleccionado / Elegido",
@@ -466,6 +501,7 @@
     },
     {
         "Término en francés": "S'appuyer",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Apoyarse (físicamente o moralmente)",
@@ -481,6 +517,7 @@
     },
     {
         "Término en francés": "Tout de suite",
+        "categoría": "Tiempo y Frecuencia",
         "definiciones": [
             {
                 "Término en español": "Enseguida / Inmediatamente",
@@ -491,6 +528,7 @@
     },
     {
         "Término en francés": "De sorte que",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "De modo que",
@@ -506,6 +544,7 @@
     },
     {
         "Término en francés": "De plus",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Además",
@@ -521,6 +560,7 @@
     },
     {
         "Término en francés": "Accueillir",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Acoger / Recibir",
@@ -536,6 +576,7 @@
     },
     {
         "Término en francés": "Interagir",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Interactuar",
@@ -546,6 +587,7 @@
     },
     {
         "Término en francés": "Ailleurs",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "En otra parte / En otro lugar",
@@ -561,6 +603,7 @@
     },
     {
         "Término en francés": "Aperçu",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Vistazo / Visión general",
@@ -576,6 +619,7 @@
     },
     {
         "Término en francés": "Combler",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Llenar / Rellenar",
@@ -591,6 +635,7 @@
     },
     {
         "Término en francés": "Quand même",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "De todos modos / Aun así",
@@ -606,6 +651,7 @@
     },
     {
         "Término en francés": "Par la suite",
+        "categoría": "Tiempo y Frecuencia",
         "definiciones": [
             {
                 "Término en español": "Más tarde / Posteriormente",
@@ -616,6 +662,7 @@
     },
     {
         "Término en francés": "Devenu",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Convertido / Llegado a ser",
@@ -626,6 +673,7 @@
     },
     {
         "Término en francés": "Demeure",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Permanece / Se queda",
@@ -641,6 +689,7 @@
     },
     {
         "Término en francés": "Parcourir",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Recorrer / Viajar por",
@@ -656,6 +705,7 @@
     },
     {
         "Término en francés": "Même si",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Aunque / Aun si",
@@ -666,6 +716,7 @@
     },
     {
         "Término en francés": "Il n'y a plus",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Ya no hay",
@@ -676,6 +727,7 @@
     },
     {
         "Término en francés": "Sembler",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Parecer",
@@ -686,6 +738,7 @@
     },
     {
         "Término en francés": "S'agir de",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Tratarse de",
@@ -696,6 +749,7 @@
     },
     {
         "Término en francés": "Déplorer",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Lamentar",
@@ -706,6 +760,7 @@
     },
     {
         "Término en francés": "Attitré",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Designado, oficial, habitual",
@@ -716,6 +771,7 @@
     },
     {
         "Término en francés": "Élu",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Elegido / Electo",
@@ -726,6 +782,7 @@
     },
     {
         "Término en francés": "Autour",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Alrededor",
@@ -734,13 +791,14 @@
             },
             {
                 "Término en español": "En torno a",
-                "Ejemplo en francés": "La discussion tournait autour de ce proyecto.",
+                "Ejemplo en francés": "La discussion tournait autour de ce projet.",
                 "Ejemplo en español": "La discusión giraba en torno a este proyecto."
             }
         ]
     },
     {
         "Término en francés": "Routière",
+        "categoría": "Transporte y Ciudad",
         "definiciones": [
             {
                 "Término en español": "Vial / De carretera",
@@ -756,6 +814,7 @@
     },
     {
         "Término en francés": "Tenter",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Intentar",
@@ -771,6 +830,7 @@
     },
     {
         "Término en francés": "Se rendre",
+        "categoría": "Transporte y Ciudad",
         "definiciones": [
             {
                 "Término en español": "Ir / Dirigirse",
@@ -786,6 +846,7 @@
     },
     {
         "Término en francés": "Longueur",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Longitud / Largo",
@@ -801,6 +862,7 @@
     },
     {
         "Término en francés": "Atteint",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Alcanzado / Logrado",
@@ -816,6 +878,7 @@
     },
     {
         "Término en francés": "Dégager",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Despejar",
@@ -831,6 +894,7 @@
     },
     {
         "Término en francés": "Débarquement",
+        "categoría": "Transporte y Ciudad",
         "definiciones": [
             {
                 "Término en español": "Desembarco",
@@ -841,6 +905,7 @@
     },
     {
         "Término en francés": "Soulage",
+        "categoría": "Salud y Bienestar",
         "definiciones": [
             {
                 "Término en español": "Aliviar / Consolar",
@@ -851,6 +916,7 @@
     },
     {
         "Término en francés": "Apaise",
+        "categoría": "Salud y Bienestar",
         "definiciones": [
             {
                 "Término en español": "Calmar / Apaciguar",
@@ -861,6 +927,7 @@
     },
     {
         "Término en francés": "Bassin",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Cuenca / Estanque",
@@ -876,6 +943,7 @@
     },
     {
         "Término en francés": "Lutins",
+        "categoría": "Cultura y Ocio",
         "definiciones": [
             {
                 "Término en español": "Duendes / Gnomos",
@@ -886,6 +954,7 @@
     },
     {
         "Término en francés": "Transmettre",
+        "categoría": "Trabajo y Negocios",
         "definiciones": [
             {
                 "Término en español": "Transmitir",
@@ -896,6 +965,7 @@
     },
     {
         "Término en francés": "Hâte",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Prisa",
@@ -911,6 +981,7 @@
     },
     {
         "Término en francés": "Baignade",
+        "categoría": "Cultura y Ocio",
         "definiciones": [
             {
                 "Término en español": "Baño / Acción de nadar",
@@ -921,6 +992,7 @@
     },
     {
         "Término en francés": "Verti",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Vértigo (forma abreviada/jerga)",
@@ -931,6 +1003,7 @@
     },
     {
         "Término en francés": "Drôle",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Divertido / Gracioso",
@@ -946,6 +1019,7 @@
     },
     {
         "Término en francés": "Affections",
+        "categoría": "Salud y Bienestar",
         "definiciones": [
             {
                 "Término en español": "Afecciones / Enfermedades",
@@ -961,11 +1035,12 @@
     },
     {
         "Término en francés": "Aborde",
+        "categoría": "Conectores y Expresiones",
         "definiciones": [
             {
                 "Término en español": "Abordar / Tratar",
                 "Ejemplo en francés": "Le professeur aborde un sujet complexe aujourd'hui.",
-                "Ejemplo en español": "El profesor aborda un tema complejo hoy."
+                "Ejemplo en español": "Le profesor aborda un tema complejo hoy."
             },
             {
                 "Término en español": "Acercarse",
@@ -976,6 +1051,7 @@
     },
     {
         "Término en francés": "Toasté",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Tostado",
@@ -986,6 +1062,7 @@
     },
     {
         "Término en francés": "Steamé",
+        "categoría": "Quebequismos",
         "definiciones": [
             {
                 "Término en español": "Cocinado al vapor (Quebequismo)",
@@ -996,6 +1073,7 @@
     },
     {
         "Término en francés": "Roteux",
+        "categoría": "Quebequismos",
         "definiciones": [
             {
                 "Término en español": "Hot-dog (Jerga de Quebec)",
@@ -1006,6 +1084,7 @@
     },
     {
         "Término en francés": "Frayeur",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Susto / Pavor",
@@ -1016,6 +1095,7 @@
     },
     {
         "Término en francés": "Tempête",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Tormenta",
@@ -1026,6 +1106,7 @@
     },
     {
         "Término en francés": "Verrouillage",
+        "categoría": "Vida Diaria",
         "definiciones": [
             {
                 "Término en español": "Bloqueo / Cierre",

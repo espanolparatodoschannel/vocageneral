@@ -163,6 +163,113 @@ body {
     transition: var(--transition);
 }
 
+/* FILTROS Y BÚSQUEDA */
+.filter-bar {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 45px;
+    /* Debajo del header fixed */
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 10px;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 15px 12px 45px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.95rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.category-box {
+    width: 100%;
+}
+
+.category-box select {
+    width: 100%;
+    padding: 12px 15px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.95rem;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: var(--transition);
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 18px;
+}
+
+.category-box select:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+/* Ajustes para Desktop */
+@media (min-width: 480px) {
+    .filter-bar {
+        flex-direction: row;
+        max-width: 500px;
+    }
+
+    .search-box {
+        flex: 2;
+    }
+
+    .category-box {
+        flex: 1;
+    }
+}
+
 /* CONTENEDOR PRINCIPAL */
 .container {
     width: 100%;
@@ -199,6 +306,14 @@ body {
 
 .flashcard.fade-out {
     opacity: 0;
+}
+
+.no-results {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: 20px;
+    text-align: center;
 }
 
 /* BOTÓN DE SONIDO PRINCIPAL */
