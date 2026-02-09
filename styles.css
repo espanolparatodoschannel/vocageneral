@@ -89,7 +89,7 @@ body {
 
 .voice-selector-popup {
     position: absolute;
-    top: 55px;
+    top: 45px;
     right: 0;
     background: var(--glass-bg);
     backdrop-filter: blur(20px);
@@ -150,15 +150,14 @@ body {
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--glass-border);
     color: var(--text-primary);
-    width: 44px;
-    /* Touch target min 44px */
-    height: 44px;
-    border-radius: 12px;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     box-shadow: var(--shadow);
     transition: var(--transition);
 }
