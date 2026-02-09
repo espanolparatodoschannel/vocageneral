@@ -237,19 +237,19 @@ body {
 
 .def-container {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .word-es {
     font-size: var(--fs-subtitle);
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     opacity: 0.9;
 }
 
 .sentence-group {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -347,7 +347,7 @@ hr {
     border: 0;
     height: 1px;
     background: linear-gradient(to right, transparent, var(--glass-border), transparent);
-    margin: 15px 0;
+    margin: 8px 0;
 }
 
 /* MEDIA QUERIES (ESCALADO PROGRESIVO) */
