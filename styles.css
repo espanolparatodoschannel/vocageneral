@@ -45,8 +45,6 @@ body {
     background: #f1f5f9;
     background-image: var(--bg-gradient);
     background-attachment: fixed;
-    background-size: 200% 200%;
-    animation: gradientMove 15s ease infinite;
     color: var(--text-primary);
     margin: 0;
     padding: 20px 16px;
@@ -59,19 +57,6 @@ body {
     transition: background-image 0.5s ease;
 }
 
-@keyframes gradientMove {
-    0% {
-        background-position: 0% 0%;
-    }
-
-    50% {
-        background-position: 100% 100%;
-    }
-
-    100% {
-        background-position: 0% 0%;
-    }
-}
 
 /* HEADER Y TONTROL DE TEMA */
 .header {
