@@ -157,7 +157,7 @@ body {
 
 /* TARJETA (ENFOQUE MÓVIL) */
 .flashcard {
-    background: var(--glass-bg);
+    background: #ffffff;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--glass-border);
@@ -175,6 +175,10 @@ body {
     text-align: center;
     transition: var(--transition);
     transform-style: preserve-3d;
+}
+
+[data-theme="dark"] .flashcard {
+    background: var(--glass-bg);
 }
 
 .flashcard.fade-out {
@@ -210,7 +214,6 @@ body {
     font-weight: 700;
     margin-bottom: 8px;
     line-height: 1.1;
-    text-shadow: 0 4px 8px var(--accent-glow);
 }
 
 .def-container {
